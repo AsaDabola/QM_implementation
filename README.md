@@ -15,14 +15,14 @@ Here is a brief breakdown of the project approach:
 3. We must understand the Prime implicant table in Quine McCulskey and how it is able to find prime implicants.
 4. Understand file parsing libraries such as pyparsing, which help verify inputs. 
 5. The code must be tested and verified with a handful of random testcases
-6. 
 
 
 Challenges Faced: 
 1.  BLIF parsing is much more difficult than PLA, since it supports sequential logic as well
-2.  QM cannot handle larger sets well
+2.  QM cannot handle larger sets well, so if planning to scale, would need to adjust code for that
 3.  Visualizing the Karnaugh Maps for QM as the inbetween process is very challenging
 
-Solutions: 
+
+
 
 
