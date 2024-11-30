@@ -1,7 +1,7 @@
 # So this function serves as a way to group up the minterms by term count 
 
 
-def minimized(data): 
+def minimized(data):  
 
   # Find the terms groupings by the count 
   def grouping(terms): 
