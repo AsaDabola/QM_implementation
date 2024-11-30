@@ -18,7 +18,7 @@ Here is a brief breakdown of the project approach:
 
 
 Challenges Faced: 
-1.  BLIF parsing is much more difficult than PLA, since it supports sequential logic as well
+1.  BLIF parsing is much more difficult than PLA, since it supports sequential logic as well, hence why I decided to stick soley to PLA format for simplicity. 
 2.  QM cannot handle larger sets well, so if planning to scale, would need to adjust code for that
 3.  Visualizing the Karnaugh Maps for QM as the inbetween process is very challenging
 
