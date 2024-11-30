@@ -7,7 +7,7 @@
 import sys
 from parser import parse
 from minimizer import minimized
-from utils import show_pla
+from utils import show_pla 
 
 def main()
   # Used to parse the input, minimze logic, write the output 
