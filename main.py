@@ -4,7 +4,7 @@
 #  Read arguements from the terminal on Mac and the Command line on Windows 
 
 
-import sys
+# import sys  for terminal use?
 from parse import parser
 from minimized import minimizer
 from display import show_pla 
@@ -19,12 +19,15 @@ out_file = "output.pla"
 data = parse(in_file)
 print(f"Parsed Data: {data}")
 
+inputs = data["inputs"]
+outputs = data["outputs"]
+
 #Minimize logic with QM
-minimize_logic = minimizer(data)
+minimized_logic = minimizer(data)
 print(f"Minimized logic using Quine-McCluskey: {minimizer}")
 
 # write the now minimized logic in PLA format to the output file 
-show(out_file, minimize_logic)
+show_pla(out_file, minimized_logic, inputs, outputs)
 print(f"Output written to {out_file}")
 
 if __name__ = "__main__"
